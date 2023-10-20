@@ -26,7 +26,7 @@ body {
   background-image: linear-gradient(
       to left,
       rgba(0, 0, 0, 80),
-      rgba(0, 0, 0, 0.85)
+      rgba(0, 0, 0, 0.45)
     ),
     url(sinema2.jpg);
   background-attachment: fixed;
@@ -129,4 +129,24 @@ body {
 
 .hidden {
   display: none;
+}
+
+.w-100{
+  height: 100%;
+}
+
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+      text-align: center;
+      width: 100%;
+      float: none;
+  }
+
 }
